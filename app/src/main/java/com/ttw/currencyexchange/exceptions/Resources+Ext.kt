@@ -6,7 +6,7 @@ import java.util.*
 
 fun Resources.getFlagResource(flagName: String): Int {
     val id = getIdentifier(
-        "_${flagName.toLowerCase(Locale.ROOT)}",
+        "_${flagName.lowercase(Locale.ROOT)}",
         "drawable",
         "com.ttw.currencyexchange"
     )
